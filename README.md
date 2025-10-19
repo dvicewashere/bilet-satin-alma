@@ -15,7 +15,7 @@
 🚌 **Sefer Yönetimi** • 🪑 **Koltuk Seçimi** • 🎫 **Kupon Sistemi** • 💰 **Sanal Kredi** • 🖼️ **Logo Yükleme** • 📄 **PDF Bilet** • 🔐 **Güvenlik** • 🌐 **Türkçe**
 
 
-[🚀 Kurulum](#-Kurulum) • [📋 Özellikler](#-özellikler) • [🐳 Docker](#-docker-kurulumu) 
+[🛠️ Kurulum](#-Kurulum) • [📋 Özellikler](#-özellikler) • [🐳 Docker](#-docker-kurulumu) 
 
 </div>
 
@@ -35,19 +35,6 @@
 
 
 ---
-
-## 🚀 Kurulum
-
-### 1. Projeyi İndirin
-
-```bash
-# GitHub'dan projeyi klonlayın
-git clone https://github.com/dvicewashere/bilet-satin-alma.git
-
-# Proje dizinine gidin
-cd dvice_bilet
-```
-
 
 ## ✨ Özellikler
 
@@ -712,6 +699,7 @@ dvice/
 
 
 </div>
+
 
 
 
