@@ -23,7 +23,7 @@
 
 ## 📋 İçindekiler
 
-- [🚀 Hızlı Başlangıç](#-hızlı-başlangıç)
+- [🚀 Kurulum](#-Kurulum)
 - [✨ Özellikler](#-özellikler)
 - [👥 Kullanıcı Rolleri](#-kullanıcı-rolleri)
 - [🛠️ Kurulum](#️-kurulum)
@@ -628,6 +628,7 @@ dvice/
 
 
 </div>
+
 
 
 
