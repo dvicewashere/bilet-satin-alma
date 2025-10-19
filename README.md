@@ -24,10 +24,9 @@
 ## 📋 İçindekiler
 
 - [🛠️ Kurulum](#️-kurulum)
+- [📦 Veritabanı Kurulumu](#-veritabanı-kurulumu)
 - [✨ Özellikler](#-özellikler)
 - [👥 Kullanıcı Rolleri](#-kullanıcı-rolleri)
-- [DviceBilet Kurulum Kılavuzu](#-Dvicebilet-kurulum-kılavuzu)
-- [📦 Veritabanı Kurulumu](#-veritabanı-kurulumu)
 - [🔑 Test Hesapları](#-test-hesapları)
 - [📱 Sayfa Yapısı](#-sayfa-yapısı)
 - [🔐 Güvenlik Özellikleri](#-güvenlik-özellikleri)
@@ -258,7 +257,6 @@ http://localhost:8080
 # setup_bus_system.php
 dosyası proje için gerekli veritabanı tablolarını oluşturur ve test hesaplarını otomatik olarak aktif hale getirir. Kurulumu başlatmak için tarayıcı üzerinden bu dosyayı çalıştırmanız yeterlidir
 
-```
 ```
 
 ## ✅ Kurulum Tamamlandı!
@@ -699,6 +697,7 @@ dvice/
 
 
 </div>
+
 
 
 
