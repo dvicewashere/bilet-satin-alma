@@ -610,7 +610,7 @@ dvice/
 - [x] Sanal kredi sistemi (1000 TL başlangıç)
 
 #### 🎨 **UI/UX Özellikleri**
-- [x] Modern AMOLED tema
+- [x] Modern tema
 - [x] Responsive tasarım
 - [x] Gradient renkler
 - [x] Hover animasyonları
@@ -618,14 +618,7 @@ dvice/
 - [x] Error handling
 - [x] Success mesajları
 
-#### 🔐 **Güvenlik Özellikleri**
-- [x] SQL Injection koruması
-- [x] XSS koruması
-- [x] CSRF koruması
-- [x] Session güvenliği
-- [x] Role-based access control
-- [x] Input validation
-- [x] Output encoding
+
 
 #### 👨‍💼 **Admin Özellikleri**
 - [x] Firma yönetimi (CRUD işlemleri)
@@ -635,23 +628,22 @@ dvice/
   - [x] Otomatik dosya adı oluşturma (uniqid)
   - [x] Canlı logo önizleme
   - [x] Eski logo otomatik temizleme
-  - [x] Frontend ve backend doğrulama
-- [x] Firma admin yönetimi
-- [x] Global kupon yönetimi
-- [x] Bakiye yönetimi
-- [x] Bilet sorgulama
+  - [x] Firma oluşturma logo oluşturma  
+- [x] Firma admin yönetimi(Firma eposta,şifre, logo ekleme ve düzenleme,silme,güncelleme)
+- [x] Global kupon yönetimi(Her firmada geçerli indirim kuponu oluşturma,düzenleme,silme)
+- [x] Bakiye yönetimi( Userların eposta adresleri girilerek veya sistem üzerinde userları listeyelerek istenilen bakiye ekleme)
+- [x] Bilet sorgulama(Bilet İd ile bilet faturasına erişme)
 - [x] Sistem istatistikleri
 - [x] Modal düzenleme
 - [x] **Türkçe kod yorumları** (Tüm PHP dosyalarında)
 
 #### 🚌 **Firma Admin Özellikleri**
-- [x] Sefer yönetimi
-- [x] Bilet yönetimi
-- [x] Firma kupon yönetimi
+- [x] Sefer yönetimi(kalkış-varış gün ve saati belirleme, Sefer ücreti ve seferde kullanılan otobüsün koltuk sayısını belirleme)
+- [x] Bilet yönetimi(yolcunun aldığı bilet id, sefer bilgilerine erişme,bilet iptal etme)
+- [x] Firma kupon yönetimi(her firma kendine ait firmanaya özel kampanya ve kupon tanımlama)
 - [x] Gelir takibi
 - [x] Koltuk kapasitesi yönetimi
-- [x] Bilet iptal
-- [x] PDF indirme
+- [x] PDF indirme(geçmişteki biletlerde indirilebilir)
 
 
 
@@ -660,7 +652,7 @@ dvice/
 ### 💎 Premium Özellikler
 
 - ✅ **Animasyonlu Giriş/Kayıt:** Sevimli avatar animasyonu
-- ✅ **Gradient Tema:** Modern AMOLED siyah-kırmızı tema
+- ✅ **Gradient Tema:** Modern siyah-kırmızı tema
 - ✅ **Modal Windows:** Smooth modal açılış/kapanış
 - ✅ **Scroll Restoration:** Sayfa geçişlerinde scroll pozisyonu korunur
 - ✅ **Loading States:** Kullanıcı geri bildirimleri
@@ -672,14 +664,6 @@ dvice/
 - ✅ **File Preview:** Dosya yükleme önizlemesi
 - ✅ **Drag & Drop:** Logo sürükle-bırak 
 
-### 🔧 Teknik Üstünlükler
-
-**Performans:**
-- ⚡ < 2 saniye sayfa yükleme
-- 🚀 Optimize edilmiş SQL sorguları
-- 💾 Efficient memory kullanımı
-- 📊 Database indexing
-- 🔄 Session optimization
 
 **Güvenlik:**
 - 🛡️ SQL Injection koruması
@@ -697,6 +681,7 @@ dvice/
 
 
 </div>
+
 
 
 
