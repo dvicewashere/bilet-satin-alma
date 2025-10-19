@@ -15,7 +15,7 @@
 🚌 **Sefer Yönetimi** • 🪑 **Koltuk Seçimi** • 🎫 **Kupon Sistemi** • 💰 **Sanal Kredi** • 🖼️ **Logo Yükleme** • 📄 **PDF Bilet** • 🔐 **Güvenlik** • 🌐 **Türkçe**
 
 
-[🛠️ Kurulum](#-kurulum) • [📋 Özellikler](#-özellikler) • [🚀 Kullanım Rehberi](#-kullanım-rehberi) 
+[🛠️ Kurulum](#️-kurulum) • [📋 Özellikler](#-özellikler) • [🚀 Kullanım Rehberi](#-kullanım-rehberi) 
 
 </div>
 
@@ -681,6 +681,7 @@ dvice/
 
 
 </div>
+
 
 
 
