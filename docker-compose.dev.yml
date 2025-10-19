@@ -1,0 +1,99 @@
+# DviceBilet - Development Docker Compose Yapılandırması
+version: '3.8'
+
+services:
+  # Web servisi (development)
+  web:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: dvicebilet-web-dev
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+      - ./bus_tickets.db:/var/www/html/bus_tickets.db
+    environment:
+      - APACHE_DOCUMENT_ROOT=/var/www/html
+      - PHP_INI_SCAN_DIR=/usr/local/etc/php/conf.d
+      - TZ=Europe/Istanbul
+      - XDEBUG_MODE=debug
+      - XDEBUG_CONFIG=client_host=host.docker.internal
+    depends_on:
+      - db
+    networks:
+      - dvicebilet-dev-network
+    restart: unless-stopped
+    command: >
+      sh -c "
+        apache2-foreground &
+        tail -f /var/log/apache2/error.log
+      "
+
+  # Veritabanı servisi
+  db:
+    image: alpine:latest
+    container_name: dvicebilet-db-dev
+    volumes:
+      - ./bus_tickets.db:/data/bus_tickets.db
+      - ./database_bus_tickets.sql:/data/database_bus_tickets.sql
+    networks:
+      - dvicebilet-dev-network
+    restart: unless-stopped
+    command: >
+      sh -c "
+        apk add --no-cache sqlite &&
+        if [ ! -f /data/bus_tickets.db ]; then
+          echo 'Development veritabanı oluşturuluyor...' &&
+          sqlite3 /data/bus_tickets.db < /data/database_bus_tickets.sql
+        fi &&
+        echo 'Development SQLite veritabanı hazır' &&
+        tail -f /dev/null
+      "
+
+  # PHPMyAdmin alternatifi - Adminer (SQLite için)
+  adminer:
+    image: adminer:latest
+    container_name: dvicebilet-adminer
+    ports:
+      - "8081:8080"
+    networks:
+      - dvicebilet-dev-network
+    restart: unless-stopped
+    profiles:
+      - admin
+
+  # MailHog (email test için)
+  mailhog:
+    image: mailhog/mailhog:latest
+    container_name: dvicebilet-mailhog
+    ports:
+      - "1025:1025"
+      - "8025:8025"
+    networks:
+      - dvicebilet-dev-network
+    restart: unless-stopped
+    profiles:
+      - mail
+
+  # Redis cache (development)
+  redis:
+    image: redis:alpine
+    container_name: dvicebilet-redis-dev
+    ports:
+      - "6379:6379"
+    networks:
+      - dvicebilet-dev-network
+    restart: unless-stopped
+    profiles:
+      - cache
+
+networks:
+  dvicebilet-dev-network:
+    driver: bridge
+
+volumes:
+  db-data-dev:
+    driver: local
+  redis-data-dev:
+    driver: local
