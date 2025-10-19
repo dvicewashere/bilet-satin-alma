@@ -15,7 +15,7 @@
 🚌 **Sefer Yönetimi** • 🪑 **Koltuk Seçimi** • 🎫 **Kupon Sistemi** • 💰 **Sanal Kredi** • 🖼️ **Logo Yükleme** • 📄 **PDF Bilet** • 🔐 **Güvenlik** • 🌐 **Türkçe**
 
 
-[🚀 Hızlı Başlangıç](#-hızlı-başlangıç) • [📋 Özellikler](#-özellikler) • [🐳 Docker](#-docker-kurulumu) 
+[🚀 Kurulum](#-hızlı-başlangıç) • [📋 Özellikler](#-özellikler) • [🐳 Docker](#-docker-kurulumu) 
 
 </div>
 
@@ -628,6 +628,7 @@ dvice/
 
 
 </div>
+
 
 
 
