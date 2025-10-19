@@ -23,10 +23,9 @@
 
 ## 📋 İçindekiler
 
-- [🚀 Kurulum](#-Kurulum)
+- [🛠️ Kurulum](#️-kurulum)
 - [✨ Özellikler](#-özellikler)
 - [👥 Kullanıcı Rolleri](#-kullanıcı-rolleri)
-- [🛠️ Kurulum](#️-kurulum)
 - [DviceBilet Kurulum Kılavuzu](#-Dvicebilet-kurulum-kılavuzu)
 - [📦 Veritabanı Kurulumu](#-veritabanı-kurulumu)
 - [🔑 Test Hesapları](#-test-hesapları)
@@ -194,7 +193,6 @@ graph TD
 ## 🛠️ Kurulum
 
 
-
 ### 📋 Gereksinimler
 
 | Bileşen | Minimum | Önerilen |
@@ -265,6 +263,8 @@ komutunu çalıştırırız.
 Tarayıcınızda şu adresi açın:
 ```
 http://localhost:8080
+
+```
 
 ## 📦 Veritabanı Kurulumu
 ```bash
@@ -712,6 +712,7 @@ dvice/
 
 
 </div>
+
 
 
 
