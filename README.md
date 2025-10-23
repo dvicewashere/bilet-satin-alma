@@ -1,13 +1,5 @@
 # 🚌 DviceBilet - Otobüs Bileti Satış Platformu
 
-<div align="center">
-
-
-[![PHP Version](https://img.shields.io/badge/PHP-8.2+-green.svg?style=flat-square&logo=php)](https://php.net)
-[![SQLite](https://img.shields.io/badge/SQLite-3.x-lightblue.svg?style=flat-square&logo=sqlite)](https://sqlite.org)
-[![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg?style=flat-square&logo=docker)](https://docker.com)
-[![License](https://img.shields.io/badge/License-Educational-yellow.svg?style=flat-square)](LICENSE)
-
 **Otobüs bileti satış sistemi**
 
 ### 🎯 Temel Özellikler Özeti
@@ -681,6 +673,7 @@ dvice/
 
 
 </div>
+
 
 
 
