@@ -1,5 +1,7 @@
 # 🚌 DviceBilet - Otobüs Bileti Satış Platformu
 
+<div align="center">
+  
 **Otobüs bileti satış sistemi**
 
 ### 🎯 Temel Özellikler Özeti
@@ -673,6 +675,7 @@ dvice/
 
 
 </div>
+
 
 
 
