@@ -65,6 +65,8 @@
 
 ### 🌟 Öne Çıkan Özellikler Detayı
 
+•Login ve register kısmına eklenen özel animasyon 
+
 #### 🖼️ Logo Yönetim Sistemi
 Modern ve güvenli firma logo yönetimi:
 - **Dosya Formatı:** Sadece PNG (yüksek kalite ve şeffaflık desteği)
