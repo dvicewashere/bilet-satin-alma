@@ -24,7 +24,6 @@
 - [👥 Kullanıcı Rolleri](#-kullanıcı-rolleri)
 - [🔑 Test Hesapları](#-test-hesapları)
 - [📱 Sayfa Yapısı](#-sayfa-yapısı)
-- [🔐 Güvenlik Özellikleri](#-güvenlik-özellikleri)
 - [🚀 Kullanım Rehberi](#-kullanım-rehberi)
 
 
